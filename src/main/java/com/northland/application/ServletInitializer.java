@@ -1,4 +1,4 @@
-package com.northland.challenge;
+package com.northland.application;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(ChallengeApplication.class);
+		return application.sources(HotelsApplication.class);
 	}
 
 }
